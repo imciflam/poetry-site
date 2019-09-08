@@ -1,12 +1,16 @@
 import React, { Component } from 'react'
 
 export class PoemItem extends Component {
-    render() {
-        console.log(this.props)
-        return (
-            <div>
+    //str.split('').join(',');
 
-            </div>
+    render() {
+        console.log(this.props.poem.poemText.length)
+        return (
+            <React.Fragment>
+                <h5><a id={this.props.poem.poemKey}><p>{this.props.poem.poemTitle}</p></a></h5>
+                <span style={{ whiteSpace: "pre" }}>{this.props.poem.poemText}</span>
+                <hr style={{ padding: 0 }} />
+            </React.Fragment>
         )
     }
 }
