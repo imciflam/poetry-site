@@ -3,6 +3,7 @@ import PropTypes from "prop-types";
 import MuiMenu from "@material-ui/core/Menu";
 import MenuItem from "@material-ui/core/MenuItem";
 import SubMenu from "./SubMenu";
+import { Link } from 'react-router-dom'
 
 export default class EnhancedMenu extends React.Component {
   renderMenuItems = () => {
@@ -19,7 +20,8 @@ export default class EnhancedMenu extends React.Component {
       }
 
       return (
-        <MenuItem key={menuItem.key} onClick={menuItem.onClick}>
+        <MenuItem component={Link} to={menuItem.key[0] + "#" + menuItem.key}
+          key={menuItem.key} onClick={menuItem.onClick}>
           {menuItem.caption}
         </MenuItem>
       );
