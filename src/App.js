@@ -26,6 +26,14 @@ function App() {
               chapterQuote={data[0].chapterQuote}
               authorQuote={data[0].authorQuote}
               poems={data[0].poems} />} />
+
+
+          <Route path="/2" render={(props) =>
+            <Chapter {...props}
+              chapterTitle={data[1].chapterTitle}
+              chapterQuote={data[1].chapterQuote}
+              authorQuote={data[1].authorQuote}
+              poems={data[1].poems} />} />
         </div>
       </div>
     </Router>

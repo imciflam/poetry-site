@@ -11,7 +11,7 @@ export class Chapter extends Component {
                 {/* <a href="#1.1">1.1</a>
                 <a href="#1.2">1.2</a>
                 <h5><a id="1.1"></a><p>kek</p></h5> */}
-                <Poems poems={this.props.poems} />
+                <Poems poems={this.props.poems} location={this.props.location} />
 
             </React.Fragment >
         )
