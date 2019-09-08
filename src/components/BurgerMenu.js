@@ -1,7 +1,16 @@
 import React from "react";
-import AddIcon from "@material-ui/icons/Add";
+import Burger from "@material-ui/icons/Reorder";
 import IconButton from "@material-ui/core/IconButton";
 import EnhancedMenu from "./EnhancedMenu";
+import { transcode } from "buffer";
+import { transform } from "@babel/core";
+
+const styles = {
+  largeIcon: {
+    fontSize: 'large',
+  }
+};
+
 
 const menuItems = [
   {
@@ -324,7 +333,8 @@ export default class Demo extends React.Component {
     return (
       <React.Fragment>
         <IconButton onClick={this.handleButtonClick}>
-          <AddIcon />
+          <Burger style={{ fontSize: "2em" }}
+          />
         </IconButton>
         <EnhancedMenu
           open={Boolean(anchorElement)}
