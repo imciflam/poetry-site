@@ -1,7 +1,8 @@
 import React, { Component } from 'react'
 
-export class Poem extends Component {
+export class PoemItem extends Component {
     render() {
+        console.log(this.props)
         return (
             <div>
 
@@ -10,4 +11,4 @@ export class Poem extends Component {
     }
 }
 
-export default Poem
+export default PoemItem
