@@ -8,7 +8,7 @@ export class PoemItem extends Component {
         return (
             <React.Fragment>
                 <h5><a id={this.props.poem.poemKey}><p>{this.props.poem.poemTitle}</p></a></h5>
-                <span style={{ whiteSpace: "pre" }}>{this.props.poem.poemText}</span>
+                <span style={{ whiteSpace: "pre-line" }}>{this.props.poem.poemText}</span>
                 <hr style={{ padding: 0 }} />
             </React.Fragment>
         )
