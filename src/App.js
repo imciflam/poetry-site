@@ -12,7 +12,7 @@ function App() {
     <Router>
       <div className="App">
         <div className='container'>
-          <BurgerMenu />
+          <BurgerMenu styles={{ backgroundColor: `#4C6667` }} />
           <Route exact path='/' component={MainPage}></Route>
           {/* <div className="App-header">
              <img src={logo} className="App-logo" alt="logo" /> 
@@ -37,9 +37,10 @@ function App() {
               chapterQuote={data[1].chapterQuote}
               authorQuote={data[1].authorQuote}
               poems={data[1].poems} />} />
+
         </div>
       </div>
-    </Router>
+    </Router >
   );
 }
 
