@@ -2,14 +2,7 @@ import React from "react";
 import Burger from "@material-ui/icons/Reorder";
 import IconButton from "@material-ui/core/IconButton";
 import EnhancedMenu from "./EnhancedMenu";
-import { transcode } from "buffer";
-import { transform } from "@babel/core";
 
-const styles = {
-  largeIcon: {
-    fontSize: 'large',
-  }
-};
 
 
 const menuItems = [

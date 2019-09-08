@@ -2,8 +2,9 @@ import React from "react";
 import PropTypes from "prop-types";
 import MuiMenu from "@material-ui/core/Menu";
 import MenuItem from "@material-ui/core/MenuItem";
-import SubMenu from "./SubMenu";
-import { Link } from 'react-router-dom'
+import SubMenu from "./SubMenu"; import { HashLink as Link } from 'react-router-hash-link';
+
+
 
 export default class EnhancedMenu extends React.Component {
   renderMenuItems = () => {
@@ -20,7 +21,7 @@ export default class EnhancedMenu extends React.Component {
       }
 
       return (
-        <MenuItem component={Link} to={menuItem.key[0] + "#" + menuItem.key}
+        <MenuItem component={Link} smooth to={menuItem.key[0] + "#" + menuItem.key}
           key={menuItem.key} onClick={menuItem.onClick}>
           {menuItem.caption}
         </MenuItem>

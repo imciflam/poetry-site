@@ -6,6 +6,7 @@ export class Chapter extends Component {
         return (
             <React.Fragment>
                 <h1>{this.props.chapterTitle}</h1>
+                <p><a href="#1.2">Наверх</a></p>
                 <blockquote class="blockquote-8">
                     <p>{this.props.chapterQuote}</p>
                     <cite>{this.props.authorQuote}</cite>

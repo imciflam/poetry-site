@@ -25,7 +25,10 @@ function App() {
               chapterTitle={data[0].chapterTitle}
               chapterQuote={data[0].chapterQuote}
               authorQuote={data[0].authorQuote}
-              poems={data[0].poems} />} />
+              poems={data[0].poems} />}
+            style={{
+              padding: "0 3%"
+            }} />
 
 
           <Route path="/2" render={(props) =>
