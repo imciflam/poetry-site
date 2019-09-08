@@ -12,14 +12,8 @@ function App() {
     <Router>
       <div className="App">
         <div className='container'>
-          <BurgerMenu styles={{ backgroundColor: `#4C6667` }} />
+          <div style={{ backgroundColor: `#263333` }}><BurgerMenu styles={{ backgroundColor: `#4C6667` }} /></div>
           <Route exact path='/' component={MainPage}></Route>
-          {/* <div className="App-header">
-             <img src={logo} className="App-logo" alt="logo" /> 
-            <p>
-              Edit <code>src/App.js</code> and save to reload.
-           </p>
-          </div> */}
           <Route path="/1" render={(props) =>
             <Chapter {...props}
               chapterTitle={data[0].chapterTitle}

@@ -22,7 +22,7 @@ code {
 .blockquote-8:before,
 .blockquote-8:after {
   position: absolute;
-  color: #778899;
+  color: #384d4d;
   font-size: 100px;
   font-family: Times, sans-serif;    
   line-height: 100px;    
@@ -38,7 +38,7 @@ code {
   bottom: -10px;
 }
 .blockquote-8 cite {
-  color: #337AB7;
+  color: #384d4d;
   font-size: 15px;
   padding-top: 10px;
   display: block;

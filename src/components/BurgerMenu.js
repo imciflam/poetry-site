@@ -325,7 +325,7 @@ export default class Demo extends React.Component {
     return (
       <React.Fragment>
         <IconButton onClick={this.handleButtonClick}>
-          <Burger style={{ fontSize: "2em" }}
+          <Burger style={{ fontSize: "1em" }}
           />
         </IconButton>
         <EnhancedMenu
