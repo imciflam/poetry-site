@@ -2,7 +2,7 @@ import React from 'react';
 //import logo from './logo.svg';
 import './App.css';
 import BurgerMenu from "./components/BurgerMenu"
-import { BrowserRouter as Router, Route } from 'react-router-dom'
+import { HashRouter as Router, Route } from 'react-router-dom'
 import { Chapter } from "./components/Chapter"
 import MainPage from "./components/MainPage"
 import { data } from "./data/data"

@@ -1,9 +1,8 @@
 import React from "react";
 import Burger from "@material-ui/icons/Reorder";
 import IconButton from "@material-ui/core/IconButton";
-import EnhancedMenu from "./EnhancedMenu";
-
-
+import CascadingMenu from "./CascadingMenu/CascadingMenu";
+import { BrowserRouter as Router, Route } from 'react-router-dom'
 const menuItems = [
   {
     key: "1",
@@ -299,42 +298,52 @@ const menuItems = [
   },
 ];
 
-export default class Demo extends React.Component {
+class BurgerMenu extends React.Component {
   constructor(props) {
     super(props);
-
     this.state = {
       anchorElement: null
     };
   }
 
-  handleButtonClick = event => {
-    this.setState({
-      anchorElement: event.currentTarget
-    });
+  handleClick = event => {
+    this.setState({ anchorElement: event.currentTarget });
   };
 
-  handleMenuClose = () => {
-    this.setState({
-      anchorElement: null
-    });
+  handleClose = () => {
+    this.setState({ anchorElement: null });
   };
 
   render() {
     const { anchorElement } = this.state;
+
     return (
       <React.Fragment>
-        <IconButton onClick={this.handleButtonClick}>
-          <Burger style={{ fontSize: "1em" }}
-          />
+        <IconButton
+          aria-label="Toggle User Menu"
+          aria-controls="user-menu"
+          aria-haspopup="true"
+          onClick={this.handleClick}
+        >
+          <Burger />
         </IconButton>
-        <EnhancedMenu
-          open={Boolean(anchorElement)}
-          menuItems={menuItems}
+        <CascadingMenu
           anchorElement={anchorElement}
-          onClose={this.handleMenuClose}
+          anchorOrigin={{
+            vertical: "top",
+            horizontal: "right"
+          }}
+          menuItems={menuItems}
+          onClose={this.handleClose}
+          open={Boolean(anchorElement)}
+          transformOrigin={{
+            vertical: "top",
+            horizontal: "right"
+          }}
         />
       </React.Fragment>
     );
   }
 }
+
+export default BurgerMenu;
