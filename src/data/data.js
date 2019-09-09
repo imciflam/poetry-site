@@ -2499,7 +2499,7 @@ export const data = [
 
             `,
         },{
-            poemTitle: `счастье жизни\пухастики`,
+            poemTitle: `счастье жизни/пухастики`,
             poemKey: `7.10`,
             poemText: 
             ` 

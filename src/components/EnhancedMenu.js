@@ -2,7 +2,8 @@ import React from "react";
 import PropTypes from "prop-types";
 import MuiMenu from "@material-ui/core/Menu";
 import MenuItem from "@material-ui/core/MenuItem";
-import SubMenu from "./SubMenu"; import { HashLink as Link } from 'react-router-hash-link';
+import SubMenu from "./SubMenu"; 
+import { HashLink as Link } from 'react-router-hash-link';
 
 
 

@@ -5,10 +5,10 @@ export class PoemItem extends Component {
         console.log(this.props)
         return (
             <React.Fragment>
-                <h3><a id={this.props.poem.poemKey}><p>{this.props.poem.poemTitle}</p></a></h3>
+                <h3><a id={this.props.poem.poemKey} ><p>{this.props.poem.poemTitle}</p></a></h3>
                 <span style={{ whiteSpace: "pre-line" }}>{this.props.poem.poemText}</span>
                 {this.props.poem.picture ? <div>
-                    <br /> <img src={this.props.poem.picture} style={{ width: `80%` }} /> </div> : ""}
+                    <br /> <img src={this.props.poem.picture} style={{ width: `80%` }} alt = "illustration"/> </div> : ""}
                 <hr />
             </React.Fragment>
         )
