@@ -39,26 +39,26 @@ function App() {
               authorQuote={data[2].authorQuote}
               poems={data[2].poems} />} />
 
-           <Route path="/4" render={(props) =>
+          <Route path="/4" render={(props) =>
             <Chapter {...props}
               chapterTitle={data[3].chapterTitle}
               chapterQuote={data[3].chapterQuote}
               authorQuote={data[3].authorQuote}
               poems={data[3].poems} />} />
-              
-            <Route path="/5" render={(props) =>
+
+          <Route path="/5" render={(props) =>
             <Chapter {...props}
               chapterTitle={data[4].chapterTitle}
               chapterQuote={data[4].chapterQuote}
               authorQuote={data[4].authorQuote}
               poems={data[4].poems} />} />
 
-            <Route path="/6" render={(props) =>
+          <Route path="/6" render={(props) =>
             <Chapter {...props}
-              chapterTitle={data[6].chapterTitle}
-              chapterQuote={data[6].chapterQuote}
-              authorQuote={data[6].authorQuote}
-              poems={data[6].poems} />} />
+              chapterTitle={data[5].chapterTitle}
+              chapterQuote={data[5].chapterQuote}
+              authorQuote={data[5].authorQuote}
+              poems={data[5].poems} />} />
 
           <Route path="/7" render={(props) =>
             <Chapter {...props}
@@ -66,7 +66,7 @@ function App() {
               chapterQuote={data[6].chapterQuote}
               authorQuote={data[6].authorQuote}
               poems={data[6].poems} />} />
- 
+
         </div>
       </div>
     </Router >
