@@ -5,8 +5,8 @@ export class Chapter extends Component {
         console.log(this.props)
         return (
             <React.Fragment>
-                <h1>{this.props.chapterTitle}</h1>
-                <blockquote class="blockquote-8">
+                <h1><a id={this.props.match.url.slice(1,2)}>{this.props.chapterTitle}</a></h1>
+                <blockquote className="blockquote-8">
                     <p>{this.props.chapterQuote}</p>
                     <cite>{this.props.authorQuote}</cite>
                 </blockquote>
