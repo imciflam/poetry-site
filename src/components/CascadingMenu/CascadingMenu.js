@@ -88,7 +88,7 @@ class CascadingMenu extends React.Component {
               <MenuList>
                 {menuItem.subMenuItems.map(subMenuItem =>
                   <div><MenuItem
-                  onClick={e => this.closeAllMenus()}
+                  onClick={() => this.closeAllMenus()}
                   className={classes.menuItem}
                   key={menuItem.key}
                   component={Link} to={`${menuItem.key}#${subMenuItem.key}`}

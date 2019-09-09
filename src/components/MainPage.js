@@ -9,7 +9,7 @@ const styles = {
         backgroundSize: `cover`,
         minHeight: "100vh",
         padding: "0",
-        margin: "0"
+        margin: "0",
     },
     footer:
     {
@@ -27,6 +27,7 @@ export class MainPage extends Component {
         return (
             <div>
                 <div className="App-header" style={styles.bg}>
+                    <div style={styles.mainText}>
                     <p>
                         Сборник стихотворений.
                    </p>
@@ -36,6 +37,7 @@ export class MainPage extends Component {
                     <p>
                         Умом, сердцем и душой.
                    </p>
+                   </div>
                 </div>
                 <footer style={styles.footer}>
                     <p style={styles.text}>Автор: alex_mta@mail.ru</p>
