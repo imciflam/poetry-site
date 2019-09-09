@@ -12,7 +12,9 @@ function App() {
     <Router>
       <div className="App">
         <div className='container'>
-          <div style={{ backgroundColor: `#263333` }}><BurgerMenu styles={{ backgroundColor: `#4C6667` }} /></div>
+          <div className='barContainer' style={{ backgroundColor: `#263333`, position: `absolute`, width: `100%`, opacity: `0.7` }}>
+            <BurgerMenu styles={{ backgroundColor: `#4C6667` }} />
+          </div>
           <Route exact path='/' component={MainPage}></Route>
           <Route path="/1" render={(props) =>
             <Chapter {...props}
