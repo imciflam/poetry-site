@@ -47,3 +47,17 @@
 .textContainer > p:nth-child(3) {
   font-size: calc(0.5em + 2vmin);
 }
+
+.mainPoemText {
+  font-size: calc(0.5em + 2vmin);
+}
+
+h3 {
+  font-size: calc(0.6em + 2vmin);
+  margin: 0;
+}
+
+.chapterTitle {
+  font-size: calc(1em + 2vmin);
+  margin: 1%;
+}

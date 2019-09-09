@@ -2,7 +2,6 @@ import React from "react";
 import Burger from "@material-ui/icons/Reorder";
 import IconButton from "@material-ui/core/IconButton";
 import CascadingMenu from "./CascadingMenu/CascadingMenu";
-import { BrowserRouter as Router, Route } from 'react-router-dom'
 const menuItems = [
   {
     key: "1",
@@ -11,67 +10,69 @@ const menuItems = [
       {
         key: "1.1",
         caption: "Снега в полях...",
-        onClick: () => { }
-      }, {
+        onClick: () => {}
+      },
+      {
         key: "1.2",
         caption: "Дороги",
-        onClick: () => { }
+        onClick: () => {}
       },
       {
         key: "1.3",
         caption: "Россия, милая Россия",
-        onClick: () => { }
+        onClick: () => {}
       },
       {
         key: "1.4",
         caption: "Чувство красоты",
-        onClick: () => { }
+        onClick: () => {}
       },
       {
         key: "1.5",
         caption: "Горы Кавказа",
-        onClick: () => { }
+        onClick: () => {}
       },
       {
         key: "1.6",
         caption: "Белая береза",
-        onClick: () => { }
+        onClick: () => {}
       },
       {
         key: "1.7",
         caption: "С добрым утром!",
-        onClick: () => { }
+        onClick: () => {}
       },
       {
         key: "1.8",
         caption: "Ты сын Армении и гражданин России...",
-        onClick: () => { }
+        onClick: () => {}
       },
       {
         key: "1.9",
         caption: "Ждут тебя дороги русские",
-        onClick: () => { }
+        onClick: () => {}
       },
       {
         key: "1.10",
         caption: "Летите голуби, летите",
-        onClick: () => { }
+        onClick: () => {}
       },
       {
         key: "1.11",
         caption: "Русская душа",
-        onClick: () => { }
+        onClick: () => {}
       },
       {
         key: "1.12",
         caption: "Весна",
-        onClick: () => { }
-      }, ,
+        onClick: () => {}
+      },
+      ,
       {
         key: "1.13",
         caption: "Родные березки",
-        onClick: () => { }
-      },
+        onClick: () => {}
+      }
     ]
   },
   {
@@ -81,15 +82,17 @@ const menuItems = [
       {
         key: "2.1",
         caption: "В память о Евтушенко",
-        onClick: () => { }
-      }, {
+        onClick: () => {}
+      },
+      {
         key: "2.2",
         caption: "Е.П.",
-        onClick: () => { }
-      }, {
+        onClick: () => {}
+      },
+      {
         key: "2.3",
         caption: "Когда уходит друг",
-        onClick: () => { }
+        onClick: () => {}
       }
     ]
   },
@@ -100,60 +103,73 @@ const menuItems = [
       {
         key: "3.1",
         caption: "Проходят дни, недели, годы...",
-        onClick: () => { }
-      }, {
+        onClick: () => {}
+      },
+      {
         key: "3.2",
         caption: "Вы уважительно корректны",
-        onClick: () => { }
-      }, {
+        onClick: () => {}
+      },
+      {
         key: "3.3",
         caption: "Сердце, близкое тебе",
-        onClick: () => { }
-      }, {
+        onClick: () => {}
+      },
+      {
         key: "3.4",
         caption: "Поцелуй",
-        onClick: () => { }
-      }, {
+        onClick: () => {}
+      },
+      {
         key: "3.5",
         caption: "Средь цветов луговых",
-        onClick: () => { }
-      }, {
+        onClick: () => {}
+      },
+      {
         key: "3.6",
         caption: "Губами алыми горя",
-        onClick: () => { }
-      }, {
+        onClick: () => {}
+      },
+      {
         key: "3.7",
         caption: "Алые губы",
-        onClick: () => { }
-      }, {
+        onClick: () => {}
+      },
+      {
         key: "3.8",
         caption: "Девочка с косичками",
-        onClick: () => { }
-      }, {
+        onClick: () => {}
+      },
+      {
         key: "3.9",
         caption: "Карие глаза",
-        onClick: () => { }
-      }, {
+        onClick: () => {}
+      },
+      {
         key: "3.10",
         caption: "Она",
-        onClick: () => { }
-      }, {
+        onClick: () => {}
+      },
+      {
         key: "3.11",
         caption: "Образ",
-        onClick: () => { }
-      }, {
+        onClick: () => {}
+      },
+      {
         key: "3.12",
         caption: "Улыбка Джаконды",
-        onClick: () => { }
-      }, {
+        onClick: () => {}
+      },
+      {
         key: "3.13",
         caption: "Как все не просто в этом мире!",
-        onClick: () => { }
-      }, {
+        onClick: () => {}
+      },
+      {
         key: "3.14",
         caption: "Миг счастья",
-        onClick: () => { }
-      },
+        onClick: () => {}
+      }
     ]
   },
   {
@@ -163,32 +179,38 @@ const menuItems = [
       {
         key: "4.1",
         caption: "Ну а я грущу и весел",
-        onClick: () => { }
-      }, {
+        onClick: () => {}
+      },
+      {
         key: "4.2",
         caption: "Плакучие ивы",
-        onClick: () => { }
-      }, {
+        onClick: () => {}
+      },
+      {
         key: "4.3",
         caption: "8 марта",
-        onClick: () => { }
-      }, {
+        onClick: () => {}
+      },
+      {
         key: "4.4",
         caption: "Чудесный день",
-        onClick: () => { }
-      }, {
+        onClick: () => {}
+      },
+      {
         key: "4.5",
         caption: "8 марта - день мимозы",
-        onClick: () => { }
-      }, {
+        onClick: () => {}
+      },
+      {
         key: "4.6",
         caption: "С добрым утром",
-        onClick: () => { }
-      }, {
+        onClick: () => {}
+      },
+      {
         key: "4.7",
         caption: "Женские руки",
-        onClick: () => { }
-      },
+        onClick: () => {}
+      }
     ]
   },
   {
@@ -198,16 +220,18 @@ const menuItems = [
       {
         key: "5.1",
         caption: "Грустна судьба, когда один",
-        onClick: () => { }
-      }, {
+        onClick: () => {}
+      },
+      {
         key: "5.2",
         caption: "Мама",
-        onClick: () => { }
-      }, {
+        onClick: () => {}
+      },
+      {
         key: "5.3",
         caption: "Родителей не выбирают",
-        onClick: () => { }
-      },
+        onClick: () => {}
+      }
     ]
   },
   {
@@ -217,28 +241,28 @@ const menuItems = [
       {
         key: "6.1",
         caption: "Мечты, мечты",
-        onClick: () => { }
+        onClick: () => {}
       },
       {
         key: "6.2",
         caption: "Где ваша мудрость?",
-        onClick: () => { }
+        onClick: () => {}
       },
       {
         key: "6.3",
         caption: "Мечты заката",
-        onClick: () => { }
+        onClick: () => {}
       },
       {
         key: "6.4",
         caption: "Как все запутанно и просто",
-        onClick: () => { }
+        onClick: () => {}
       },
       {
         key: "6.5",
         caption: "Баня - это праздник года",
-        onClick: () => { }
-      },
+        onClick: () => {}
+      }
     ]
   },
   {
@@ -248,54 +272,65 @@ const menuItems = [
       {
         key: "7.1",
         caption: "Юная душа",
-        onClick: () => { }
-      }, {
+        onClick: () => {}
+      },
+      {
         key: "7.2",
         caption: "Е.Д. - на день совершеннолетия",
-        onClick: () => { }
-      }, {
+        onClick: () => {}
+      },
+      {
         key: "7.3",
         caption: "Старость",
-        onClick: () => { }
-      }, {
+        onClick: () => {}
+      },
+      {
         key: "7.4",
         caption: "Мы становимся старше",
-        onClick: () => { }
-      }, {
+        onClick: () => {}
+      },
+      {
         key: "7.5",
         caption: "Когда смотрю на годы жизни",
-        onClick: () => { }
-      }, {
+        onClick: () => {}
+      },
+      {
         key: "7.6",
         caption: "Не покидай надежды лик",
-        onClick: () => { }
-      }, {
+        onClick: () => {}
+      },
+      {
         key: "7.7",
         caption: "Приходит старость",
-        onClick: () => { }
-      }, {
+        onClick: () => {}
+      },
+      {
         key: "7.8",
         caption: "Живи и властвуй",
-        onClick: () => { }
-      }, {
+        onClick: () => {}
+      },
+      {
         key: "7.9",
         caption: "С днем науки",
-        onClick: () => { }
-      }, {
+        onClick: () => {}
+      },
+      {
         key: "7.10",
         caption: "Счастье жизни/Пухастики",
-        onClick: () => { }
-      }, {
+        onClick: () => {}
+      },
+      {
         key: "7.11",
         caption: "Е.Д. - Праздник",
-        onClick: () => { }
-      }, {
+        onClick: () => {}
+      },
+      {
         key: "7.12",
         caption: "Души творенье",
-        onClick: () => { }
+        onClick: () => {}
       }
     ]
-  },
+  }
 ];
 
 class BurgerMenu extends React.Component {

@@ -7,7 +7,7 @@ import Paper from "@material-ui/core/Paper";
 import { withStyles } from "@material-ui/core/styles";
 import ArrowRightIcon from "@material-ui/icons/KeyboardArrowRight";
 import styles from "./CascadingMenu.styles";
-import { HashLink as Link } from 'react-router-hash-link';
+import { HashLink as Link } from "react-router-hash-link";
 
 class CascadingMenu extends React.Component {
   constructor(props) {
@@ -19,7 +19,7 @@ class CascadingMenu extends React.Component {
   }
 
   handleItemClick = (event, menuItem) => {
-    console.log("closing")
+    console.log("closing");
     const hasSubMenu = !!(
       menuItem.subMenuItems && menuItem.subMenuItems.length
     );
@@ -39,10 +39,9 @@ class CascadingMenu extends React.Component {
 
       this.setState({ subMenuStates });
     } else {
-      console.log("closing")
+      console.log("closing");
       this.closeAllMenus();
     }
- 
   };
 
   closeAllMenus() {
@@ -76,7 +75,8 @@ class CascadingMenu extends React.Component {
         onClick={e => this.handleItemClick(e, menuItem)}
         className={classes.menuItem}
         key={menuItem.key}
-      >{menuItem.caption}
+      >
+        {menuItem.caption}
         {hasSubMenu && (
           <React.Fragment>
             <ArrowRightIcon className={classes.arrowIcon} />
@@ -86,14 +86,19 @@ class CascadingMenu extends React.Component {
               }`}
             >
               <MenuList>
-                {menuItem.subMenuItems.map(subMenuItem =>
-                  <div><MenuItem
-                  onClick={() => this.closeAllMenus()}
-                  className={classes.menuItem}
-                  key={menuItem.key}
-                  component={Link} to={`${menuItem.key}#${subMenuItem.key}`}
-                >{subMenuItem.caption}</MenuItem></div>
-                )}
+                {menuItem.subMenuItems.map(subMenuItem => (
+                  <div>
+                    <MenuItem
+                      onClick={() => this.closeAllMenus()}
+                      className={classes.menuItem}
+                      key={menuItem.key}
+                      component={Link}
+                      to={`${menuItem.key}#${subMenuItem.key}`}
+                    >
+                      {subMenuItem.caption}
+                    </MenuItem>
+                  </div>
+                ))}
               </MenuList>
             </Paper>
           </React.Fragment>

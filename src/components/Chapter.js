@@ -5,8 +5,8 @@ export class Chapter extends Component {
     console.log(this.props);
     return (
       <React.Fragment>
-        <div style={{ padding: `5%` }}>
-          <h1>
+        <div style={{ padding: `50px 5%` }}>
+          <h1 className="chapterTitle">
             <a id={this.props.match.url.slice(1, 2)}>
               {this.props.chapterTitle}
             </a>

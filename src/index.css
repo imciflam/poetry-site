@@ -1,7 +1,7 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "EB Garamond", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+  font-family: -apple-system, BlinkMacSystemFont, "EB Garamond", "Roboto",
+    "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -15,8 +15,8 @@ code {
 .blockquote-8 {
   position: relative;
   padding: 16px 24px;
-  margin: 16px 46px;    
-  font-size: 1.5em;
+  margin: 16px 46px;
+  font-size: calc(1.4em + 1vmin);
   text-align: center;
 }
 .blockquote-8:before,
@@ -24,28 +24,27 @@ code {
   position: absolute;
   color: #384d4d;
   font-size: 100px;
-  font-family: Times, sans-serif;    
-  line-height: 100px;    
+  font-family: Times, sans-serif;
+  line-height: 100px;
 }
 .blockquote-8:before {
-  content: '“';
+  content: "“";
   left: -30px;
   top: -10px;
 }
 .blockquote-8:after {
-  content: '”';
+  content: "”";
   right: -30px;
   bottom: -10px;
 }
 .blockquote-8 cite {
   color: #384d4d;
-  font-size: 15px;
+  font-size: calc(0.4em + 1vmin);
   padding-top: 10px;
   display: block;
 }
 
-hr 
-{
+hr {
   border: 0;
   height: 1px;
   background: #333;
