@@ -1,7 +1,9 @@
 import React from "react";
 import Burger from "@material-ui/icons/Reorder";
+import Home from "@material-ui/icons/Home";
 import IconButton from "@material-ui/core/IconButton";
 import CascadingMenu from "./CascadingMenu/CascadingMenu";
+import { Link } from "react-router-dom";
 const menuItems = [
   {
     key: "1",
@@ -362,6 +364,17 @@ class BurgerMenu extends React.Component {
         >
           <Burger />
         </IconButton>
+
+        <Link to="/">
+          <IconButton
+            aria-label="Toggle User Menu"
+            aria-controls="user-menu"
+            aria-haspopup="true"
+          >
+            <Home />
+          </IconButton>{" "}
+        </Link>
+
         <CascadingMenu
           anchorElement={anchorElement}
           anchorOrigin={{

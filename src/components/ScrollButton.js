@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-class ColoredContainer extends React.Component {
+class ColoredContainer extends Component {
   render() {
     let containerStyle = {
       backgroundColor: this.props.color
@@ -8,7 +8,7 @@ class ColoredContainer extends React.Component {
   }
 }
 
-class ScrollButton extends React.Component {
+class ScrollButton extends Component {
   constructor() {
     super();
 
@@ -47,7 +47,7 @@ class ScrollButton extends React.Component {
   }
 }
 
-class ScrollApp extends React.Component {
+class ScrollApp extends Component {
   constructor() {
     super();
 
