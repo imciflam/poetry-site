@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Poems from "./Poems";
+import ScrollApp from "./ScrollButton";
 export class Chapter extends Component {
   render() {
     console.log(this.props);
@@ -17,6 +18,7 @@ export class Chapter extends Component {
           </blockquote>
         </div>
         <Poems poems={this.props.poems} location={this.props.location} />
+        <ScrollApp />
       </React.Fragment>
     );
   }

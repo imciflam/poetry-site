@@ -51,3 +51,25 @@ hr {
   background-image: linear-gradient(to right, #ccc, #333, #ccc);
   margin: 3%;
 }
+
+.scroll {
+  opacity: 0.3;
+  background-color: #384d4d;
+  width: 40px;
+  height: 40px;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+.arrow-up {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -9px;
+  margin-left: -5px;
+  font-size: 20px;
+}
