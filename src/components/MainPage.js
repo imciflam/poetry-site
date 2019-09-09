@@ -4,6 +4,7 @@ import Background from "../images/bg.jpg";
 const styles = {
   bg: {
     backgroundImage: `url(${Background})`,
+    backgroundPosition: `center`,
     backgroundRepeat: `no-repeat`,
     backgroundSize: `cover`,
     minHeight: "100vh",
@@ -26,12 +27,11 @@ export class MainPage extends Component {
   render() {
     return (
       <div>
-        <div className="App-header" style={styles.bg}>
-          <div style={styles.mainText}>
-            <p>Сборник стихотворений.</p>
-            <p>Автор: Алекс М.</p>
-            <p>Умом, сердцем и душой.</p>
-          </div>
+        <div className="App-header" style={styles.bg}></div>
+        <div className="textContainer" style={styles.mainText}>
+          <p>Сборник стихотворений.</p>
+          <p>Автор: Алекс М.</p>
+          <p>Умом, сердцем и душой.</p>
         </div>
         <footer style={styles.footer}>
           <p style={styles.text}>Автор: alex_mta@mail.ru</p>
