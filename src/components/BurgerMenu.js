@@ -356,7 +356,7 @@ class BurgerMenu extends React.Component {
 
     return (
       <React.Fragment>
-        <div
+        <header
           style={{
             display: `flex`,
             alignItems: `space-between`,
@@ -380,7 +380,7 @@ class BurgerMenu extends React.Component {
           >
             <Burger />
           </IconButton>
-        </div>
+        </header>
         <CascadingMenu
           anchorElement={anchorElement}
           anchorOrigin={{
