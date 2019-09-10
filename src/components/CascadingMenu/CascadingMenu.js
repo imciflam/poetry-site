@@ -19,7 +19,6 @@ class CascadingMenu extends React.Component {
   }
 
   handleItemClick = (event, menuItem) => {
-    console.log("closing");
     const hasSubMenu = !!(
       menuItem.subMenuItems && menuItem.subMenuItems.length
     );
@@ -39,7 +38,6 @@ class CascadingMenu extends React.Component {
 
       this.setState({ subMenuStates });
     } else {
-      console.log("closing");
       this.closeAllMenus();
     }
   };

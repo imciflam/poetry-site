@@ -356,25 +356,31 @@ class BurgerMenu extends React.Component {
 
     return (
       <React.Fragment>
-        <IconButton
-          aria-label="Toggle User Menu"
-          aria-controls="user-menu"
-          aria-haspopup="true"
-          onClick={this.handleClick}
+        <div
+          style={{
+            display: `flex`,
+            alignItems: `space-between`,
+            justifyContent: `space-between`
+          }}
         >
-          <Burger />
-        </IconButton>
-
-        <Link to="/">
+          <Link to="/">
+            <IconButton
+              aria-label="Toggle User Menu"
+              aria-controls="user-menu"
+              aria-haspopup="true"
+            >
+              <Home />
+            </IconButton>
+          </Link>
           <IconButton
             aria-label="Toggle User Menu"
             aria-controls="user-menu"
             aria-haspopup="true"
+            onClick={this.handleClick}
           >
-            <Home />
-          </IconButton>{" "}
-        </Link>
-
+            <Burger />
+          </IconButton>
+        </div>
         <CascadingMenu
           anchorElement={anchorElement}
           anchorOrigin={{
