@@ -92,6 +92,7 @@ class CascadingMenu extends React.Component {
                       key={menuItem.key}
                       component={Link}
                       to={`${menuItem.key}#${subMenuItem.key}`}
+                      style={{ fontSize: `calc(0.5em + 1vmin)` }}
                     >
                       {subMenuItem.caption}
                     </MenuItem>
