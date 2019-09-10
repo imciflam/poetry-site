@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "34469f4c5bf992fefa3dccdd86ee8c42",
+    "revision": "13e3d6a111186d27ec538abedd7a8f0d",
     "url": "/poetry-site/index.html"
   },
   {
-    "revision": "89beaefea2a40fd1f59c",
+    "revision": "7eb831ae4f90a3314596",
     "url": "/poetry-site/static/css/main.0d82f4aa.chunk.css"
   },
   {
-    "revision": "07d72a2f2ff446aa9dbb",
-    "url": "/poetry-site/static/js/2.15148fd3.chunk.js"
+    "revision": "145d0e8ccb25e3ea1f8c",
+    "url": "/poetry-site/static/js/2.3d034eb6.chunk.js"
   },
   {
-    "revision": "89beaefea2a40fd1f59c",
-    "url": "/poetry-site/static/js/main.e0a2201c.chunk.js"
+    "revision": "7eb831ae4f90a3314596",
+    "url": "/poetry-site/static/js/main.3e5c98d0.chunk.js"
   },
   {
     "revision": "c3192e2fab15f98f2113",

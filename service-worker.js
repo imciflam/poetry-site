@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/poetry-site/precache-manifest.1aef809ff81621012ec51db679ec048a.js"
+  "/poetry-site/precache-manifest.4e3f97f4273000154829bc81ed477b4d.js"
 );
 
 self.addEventListener('message', (event) => {

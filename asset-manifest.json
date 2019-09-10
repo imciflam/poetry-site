@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/poetry-site/static/css/main.0d82f4aa.chunk.css",
-    "main.js": "/poetry-site/static/js/main.e0a2201c.chunk.js",
-    "main.js.map": "/poetry-site/static/js/main.e0a2201c.chunk.js.map",
+    "main.js": "/poetry-site/static/js/main.3e5c98d0.chunk.js",
+    "main.js.map": "/poetry-site/static/js/main.3e5c98d0.chunk.js.map",
     "runtime~main.js": "/poetry-site/static/js/runtime~main.9d8ae27c.js",
     "runtime~main.js.map": "/poetry-site/static/js/runtime~main.9d8ae27c.js.map",
-    "static/js/2.15148fd3.chunk.js": "/poetry-site/static/js/2.15148fd3.chunk.js",
-    "static/js/2.15148fd3.chunk.js.map": "/poetry-site/static/js/2.15148fd3.chunk.js.map",
+    "static/js/2.3d034eb6.chunk.js": "/poetry-site/static/js/2.3d034eb6.chunk.js",
+    "static/js/2.3d034eb6.chunk.js.map": "/poetry-site/static/js/2.3d034eb6.chunk.js.map",
     "index.html": "/poetry-site/index.html",
-    "precache-manifest.1aef809ff81621012ec51db679ec048a.js": "/poetry-site/precache-manifest.1aef809ff81621012ec51db679ec048a.js",
+    "precache-manifest.4e3f97f4273000154829bc81ed477b4d.js": "/poetry-site/precache-manifest.4e3f97f4273000154829bc81ed477b4d.js",
     "service-worker.js": "/poetry-site/service-worker.js",
     "static/css/main.0d82f4aa.chunk.css.map": "/poetry-site/static/css/main.0d82f4aa.chunk.css.map",
     "static/media/bg.jpg": "/poetry-site/static/media/bg.f28e284c.jpg"
