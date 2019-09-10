@@ -18,7 +18,7 @@ function App() {
               backgroundColor: `#263333`,
               position: `absolute`,
               width: `100%`,
-              opacity: `0.7`,
+              opacity: `0.9`,
               height: `50px `
             }}
           >

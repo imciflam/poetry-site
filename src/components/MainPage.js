@@ -16,7 +16,10 @@ const styles = {
     margin: `0`,
     position: `absolute`,
     width: `100%`,
-    bottom: `0`
+    bottom: `0`,
+    opacity: `0.9`,
+    color: `white`,
+    fontWeight: `300`
   },
   text: {
     margin: `0`,
