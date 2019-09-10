@@ -73,6 +73,7 @@ class CascadingMenu extends React.Component {
         onClick={e => this.handleItemClick(e, menuItem)}
         className={classes.menuItem}
         key={menuItem.key}
+        style={{ fontSize: `calc(0.5em + 1vmin)` }}
       >
         {menuItem.caption}
         {hasSubMenu && (
